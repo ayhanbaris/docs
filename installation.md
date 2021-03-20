@@ -100,7 +100,7 @@ php artisan ui:auth
 
 #### Variant 1 - Simple
 
-Modify `App\User` so that it extends Vanilo's user model:
+Modify `App\User` (or `App\Models\User`) so that it extends Vanilo's user model:
 
 ```php
 // app/User.php
