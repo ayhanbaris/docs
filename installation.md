@@ -161,7 +161,7 @@ class User extends Authenticatable implements UserContract
 
 ### Step 3 - Register The Model
 
-And add this to you `AppServiceProviders`'s boot method:
+And add this to you `AppServiceProvider`'s boot method:
 
 ```php
 // app/Providers/AppServiceProvider.php
