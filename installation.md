@@ -24,6 +24,9 @@ cd vaniloapp
 # Install the vanilo package:
 composer require vanilo/framework
 
+#For laravel8 and php74 ;
+composer require vanilo/framework "^2.1"
+
 # Publish module loader config:
 php artisan vendor:publish --provider="Konekt\Concord\ConcordServiceProvider" --tag=config
 ```
